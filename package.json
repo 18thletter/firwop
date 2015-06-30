@@ -1,0 +1,22 @@
+{
+  "name": "firwop",
+  "version": "1.0.0",
+  "description": "first world problems",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18thletter/firwop.git"
+  },
+  "author": "Raymund Lew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/18thletter/firwop/issues"
+  },
+  "homepage": "https://github.com/18thletter/firwop#readme",
+  "dependencies": {
+    "express": "^4.13.0"
+  }
+}
