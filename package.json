@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/18thletter/firwop#readme",
   "dependencies": {
-    "express": "^4.13.0"
+    "express": "^4.13.0",
+    "twitter-app-api": "^0.1.1"
   }
 }
