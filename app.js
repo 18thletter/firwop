@@ -24,10 +24,9 @@ app.get('/', function(req, res) {
         resultingTweets.push(twit.text);
       });
       fwpTweet = resultingTweets[Math.floor(Math.random() * resultingTweets.length)];
-      //res.send(fwpTweet);
+      res.send(fwpTweet);
     });
   });
-  res.send('hello');
 });
 
 app.listen(3000);
