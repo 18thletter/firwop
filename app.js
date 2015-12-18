@@ -24,7 +24,7 @@ app.get('/', function(req, res) {
         resultingTweets.push(twit.text);
       });
       fwpTweet = resultingTweets[Math.floor(Math.random() * resultingTweets.length)];
-      res.send(fwpTweet);
+      res.render('index', {"tweet" : fwpTweet});
     });
   });
 });
